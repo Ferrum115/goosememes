@@ -1,9 +1,9 @@
 
-$zipUrl = "https://hlgr.ru/mudak.zip"
+$zipUrl = "https://github.com/Ferrum115/goosememes/raw/refs/heads/main/goose.zip"
 
 $localDir = "$env:USERPROFILE\Pictures"
 $localImage = Join-Path $localDir "domain-wallpaper.jpg"
-$localZip = Join-Path $localDir "mudak.zip"
+$localZip = Join-Path $localDir "goose.zip"
 $extractPath = Join-Path $localDir "mudak"
 
 Invoke-WebRequest -Uri $zipUrl -OutFile $localZip -UseBasicParsing
